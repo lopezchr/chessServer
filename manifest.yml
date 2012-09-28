@@ -1,0 +1,17 @@
+--- 
+applications: 
+  .: 
+    mem: "512"
+    name: nodechess
+    instances: 1
+    url: nodechess.aws.af.cm
+    infra: hp
+    framework: 
+      info: 
+        mem: 64M
+        exec: 
+        description: Node.js Application
+      name: node
+    services: 
+      mongodb-60819: 
+        type: mongodb
