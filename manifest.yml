@@ -12,6 +12,3 @@ applications:
         exec: 
         description: Node.js Application
       name: node
-    services: 
-      mongodb-60819: 
-        type: mongodb
